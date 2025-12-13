@@ -1,0 +1,89 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Dec  5 13:16:55 2025
+| Host         : DESKTOP-54I1DOI running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Radar_Filter_control_sets_placed.rpt
+| Design       : Radar_Filter
+| Device       : xc7s50
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    22 |
+| Unused register locations in slices containing registers |    52 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      3 |            1 |
+|      4 |            1 |
+|      6 |           19 |
+|    16+ |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               3 |            1 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              59 |           18 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             118 |           43 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+--------------------------+------------------+------------------+----------------+
+|     Clock Signal     |       Enable Signal      | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------------+--------------------------+------------------+------------------+----------------+
+|  CLK100MHZ_IBUF_BUFG |                          |                  |                1 |              3 |
+|  CLK100MHZ_IBUF_BUFG | u_ctrl/index             | resetSW_IBUF     |                1 |              4 |
+|  CLK100MHZ_IBUF_BUFG | u_sort/regs[0]_0         | resetSW_IBUF     |                3 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_sort/regs[1]_1         | resetSW_IBUF     |                2 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_sort/regs[3]_3         | resetSW_IBUF     |                2 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_sort/regs[2]_2         | resetSW_IBUF     |                2 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_sort/regs[5]_5         | resetSW_IBUF     |                3 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_sort/regs[6]_6         | resetSW_IBUF     |                4 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_sort/regs[7]_7         | resetSW_IBUF     |                2 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_sort/regs[4]_4         | resetSW_IBUF     |                3 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_sort/regs[8]_8         | resetSW_IBUF     |                4 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_ctrl/index_reg[2]_6[0] | resetSW_IBUF     |                2 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_ctrl/mem_we            | resetSW_IBUF     |                1 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_ctrl/index_reg[2]_1[0] | resetSW_IBUF     |                3 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_ctrl/index_reg[2]_7[0] | resetSW_IBUF     |                1 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_ctrl/index_reg[2]_3[0] | resetSW_IBUF     |                2 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_ctrl/index_reg[2]_0[0] | resetSW_IBUF     |                1 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_ctrl/index_reg[2]_2[0] | resetSW_IBUF     |                1 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_ctrl/E[0]              | resetSW_IBUF     |                1 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_ctrl/index_reg[2]_4[0] | resetSW_IBUF     |                2 |              6 |
+|  CLK100MHZ_IBUF_BUFG | u_ctrl/index_reg[2]_5[0] | resetSW_IBUF     |                3 |              6 |
+|  CLK100MHZ_IBUF_BUFG |                          | resetSW_IBUF     |               18 |             59 |
++----------------------+--------------------------+------------------+------------------+----------------+
+
+

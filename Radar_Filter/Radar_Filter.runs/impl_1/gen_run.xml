@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s50csga324-1" LaunchTime="1764958516">
+  <File Type="BITSTR-BMM" Name="Radar_Filter_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Radar_Filter_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Radar_Filter_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Radar_Filter_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Radar_Filter.tcl"/>
+  <File Type="OPT-TIMING" Name="Radar_Filter_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Radar_Filter_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Radar_Filter_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Radar_Filter_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Radar_Filter_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Radar_Filter.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Radar_Filter_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Radar_Filter_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Radar_Filter_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Radar_Filter_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Radar_Filter_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Radar_Filter_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Radar_Filter_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Radar_Filter_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Radar_Filter_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Radar_Filter_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Radar_Filter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Radar_Filter.bgn"/>
+  <File Type="PLACE-TIMING" Name="Radar_Filter_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Radar_Filter_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Radar_Filter.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Radar_Filter_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Radar_Filter_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Radar_Filter_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Radar_Filter.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Radar_Filter_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Radar_Filter_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Radar_Filter_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Radar_Filter_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Radar_Filter_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Radar_Filter_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Radar_Filter.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Radar_Filter_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Radar_Filter.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Radar_Filter_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Radar_Filter_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="Radar_Filter.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Radar_Filter_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Radar_Filter_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Radar_Filter_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Radar_Filter_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Radar_Filter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Radar_Filter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Radar_Filter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Radar_Filter_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Radar_Filter_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Radar_Filter_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Radar_Filter_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Radar_Filter_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Radar_Filter_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Radar_Filter_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Radar_Filter_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Radar_Filter_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Radar_Filter_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Radar_Filter_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Radar_Filter_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Radar_Filter.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Radar_Filter_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Radar_Filter.rbt"/>
+  <File Type="BITSTR-NKY" Name="Radar_Filter.nky"/>
+  <File Type="BG-DRC" Name="Radar_Filter.drc"/>
+  <File Type="RDI-RDI" Name="Radar_Filter.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../BCD_decoder/BCD_decoder.srcs/sources_1/new/BCD_decoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Comparator_6bit/Comparator_6bit.srcs/sources_1/new/Comparator_6bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Bubble_Sort/Bubble_Sort.srcs/sources_1/new/Bubble_Sort.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Debounce/Debounce.srcs/sources_1/new/Debounce.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../SevenSeg_display/SevenSeg_display.srcs/sources_1/new/SevenSeg_display.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../FSM_7segment/FSM_7segment.srcs/sources_1/new/FSM_7segment.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../LSFR_RNG_6bit/LSFR_RNG_6bit.srcs/sources_1/new/LSFR_RNG_6bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../MedianFilter_FSM/MedianFilter_FSM.srcs/sources_1/new/MedianFilter_FSM.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Radar_Filter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Radar_Filter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/Arty-S7-50-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,462 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Dec  5 13:15:19 2025
+# Process ID: 8812
+# Current directory: C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Radar_Filter.runs/synth_1
+# Command line: vivado.exe -log Radar_Filter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Radar_Filter.tcl
+# Log file: C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Radar_Filter.runs/synth_1/Radar_Filter.vds
+# Journal file: C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Radar_Filter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Radar_Filter.tcl -notrace
+Command: synth_design -top Radar_Filter -part xc7s50csga324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8236 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 437.113 ; gain = 97.730
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Radar_Filter' [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Radar_Filter.srcs/sources_1/new/Radar_Filter.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'Debounce' [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Debounce/Debounce.srcs/sources_1/new/Debounce.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Debounce' (1#1) [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Debounce/Debounce.srcs/sources_1/new/Debounce.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'MedianFilter_FSM' [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/MedianFilter_FSM/MedianFilter_FSM.srcs/sources_1/new/MedianFilter_FSM.vhd:23]
+INFO: [Synth 8-4471] merging register 'mem_we_reg_reg' into 'lfsr_en_reg_reg' [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/MedianFilter_FSM/MedianFilter_FSM.srcs/sources_1/new/MedianFilter_FSM.vhd:37]
+WARNING: [Synth 8-6014] Unused sequential element mem_we_reg_reg was removed.  [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/MedianFilter_FSM/MedianFilter_FSM.srcs/sources_1/new/MedianFilter_FSM.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'MedianFilter_FSM' (2#1) [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/MedianFilter_FSM/MedianFilter_FSM.srcs/sources_1/new/MedianFilter_FSM.vhd:23]
+INFO: [Synth 8-638] synthesizing module 'LFSR_RNG_6bit' [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/LSFR_RNG_6bit/LSFR_RNG_6bit.srcs/sources_1/new/LSFR_RNG_6bit.vhd:13]
+WARNING: [Synth 8-6014] Unused sequential element feedback_reg was removed.  [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/LSFR_RNG_6bit/LSFR_RNG_6bit.srcs/sources_1/new/LSFR_RNG_6bit.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'LFSR_RNG_6bit' (3#1) [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/LSFR_RNG_6bit/LSFR_RNG_6bit.srcs/sources_1/new/LSFR_RNG_6bit.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'Bubble_Sort' [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Bubble_Sort/Bubble_Sort.srcs/sources_1/new/Bubble_Sort.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'Comparator_6bit' [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Comparator_6bit/Comparator_6bit.srcs/sources_1/new/Comparator_6bit.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Comparator_6bit' (4#1) [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Comparator_6bit/Comparator_6bit.srcs/sources_1/new/Comparator_6bit.vhd:15]
+INFO: [Synth 8-226] default block is never used [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Bubble_Sort/Bubble_Sort.srcs/sources_1/new/Bubble_Sort.vhd:81]
+WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Bubble_Sort/Bubble_Sort.srcs/sources_1/new/Bubble_Sort.vhd:157]
+INFO: [Synth 8-256] done synthesizing module 'Bubble_Sort' (5#1) [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Bubble_Sort/Bubble_Sort.srcs/sources_1/new/Bubble_Sort.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'FSM_7segment' [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/FSM_7segment/FSM_7segment.srcs/sources_1/new/FSM_7segment.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'BCD_decoder' [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/BCD_decoder/BCD_decoder.srcs/sources_1/new/BCD_decoder.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'BCD_decoder' (6#1) [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/BCD_decoder/BCD_decoder.srcs/sources_1/new/BCD_decoder.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'SevenSeg_display' [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/SevenSeg_display/SevenSeg_display.srcs/sources_1/new/SevenSeg_display.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'SevenSeg_display' (7#1) [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/SevenSeg_display/SevenSeg_display.srcs/sources_1/new/SevenSeg_display.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'FSM_7segment' (8#1) [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/FSM_7segment/FSM_7segment.srcs/sources_1/new/FSM_7segment.vhd:16]
+WARNING: [Synth 8-6014] Unused sequential element idx_int_reg was removed.  [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Radar_Filter.srcs/sources_1/new/Radar_Filter.vhd:179]
+INFO: [Synth 8-256] done synthesizing module 'Radar_Filter' (9#1) [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Radar_Filter.srcs/sources_1/new/Radar_Filter.vhd:19]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 493.734 ; gain = 154.352
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 493.734 ; gain = 154.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 493.734 ; gain = 154.352
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Arty-S7-50-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'AN[0]'. [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Arty-S7-50-Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Arty-S7-50-Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[1]'. [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Arty-S7-50-Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Arty-S7-50-Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[2]'. [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Arty-S7-50-Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Arty-S7-50-Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[3]'. [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Arty-S7-50-Master.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Arty-S7-50-Master.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Arty-S7-50-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Arty-S7-50-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Radar_Filter_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Radar_Filter_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 822.020 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 822.090 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 822.090 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 822.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 822.090 ; gain = 482.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s50csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 822.090 ; gain = 482.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 822.090 ; gain = 482.707
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MedianFilter_FSM'
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "lfsr_en_reg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Bubble_Sort'
+INFO: [Synth 8-5544] ROM "regs_reg[0]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regs_reg[1]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regs_reg[2]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regs_reg[3]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regs_reg[4]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regs_reg[5]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regs_reg[6]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regs_reg[7]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "regs_reg[8]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "digit_sel" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tick_debounce" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "mem_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_idle |                               00 |                               00
+                  s_fill |                               01 |                               01
+                 s_ready |                               10 |                               10
+               s_sorting |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'MedianFilter_FSM'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                    sort |                               01 |                               01
+              done_state |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Bubble_Sort'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 822.090 ; gain = 482.707
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 19    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 8     
+	   3 Input      6 Bit        Muxes := 9     
+	   2 Input      4 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 23    
+	   4 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 21    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Radar_Filter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	                6 Bit    Registers := 9     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+Module Debounce 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module MedianFilter_FSM 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 6     
+Module LFSR_RNG_6bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+Module Bubble_Sort 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                6 Bit    Registers := 9     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 7     
+	   3 Input      6 Bit        Muxes := 9     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 21    
+Module FSM_7segment 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "u_ctrl/state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "u_sort/regs_reg[8]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "u_sort/regs_reg[0]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "u_disp/digit_sel" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "mem_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mem_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "tick_debounce" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 822.090 ; gain = 482.707
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 822.090 ; gain = 482.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 848.285 ; gain = 508.902
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 857.348 ; gain = 517.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 857.348 ; gain = 517.965
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 857.348 ; gain = 517.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 857.348 ; gain = 517.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 857.348 ; gain = 517.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 857.348 ; gain = 517.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 857.348 ; gain = 517.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     9|
+|3     |LUT1   |     3|
+|4     |LUT2   |    39|
+|5     |LUT3   |    20|
+|6     |LUT4   |    26|
+|7     |LUT5   |    23|
+|8     |LUT6   |    95|
+|9     |MUXF7  |    13|
+|10    |FDRE   |   179|
+|11    |FDSE   |     1|
+|12    |IBUF   |     5|
+|13    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+-----------------+------+
+|      |Instance     |Module           |Cells |
++------+-------------+-----------------+------+
+|1     |top          |                 |   422|
+|2     |  u_ctrl     |MedianFilter_FSM |    31|
+|3     |  u_db_read  |Debounce         |     6|
+|4     |  u_db_sort  |Debounce_0       |     6|
+|5     |  u_db_start |Debounce_1       |     6|
+|6     |  u_disp     |FSM_7segment     |    44|
+|7     |  u_rng      |LFSR_RNG_6bit    |     7|
+|8     |  u_sort     |Bubble_Sort      |   207|
++------+-------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 857.348 ; gain = 517.965
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 857.348 ; gain = 189.609
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 857.348 ; gain = 517.965
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 857.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+72 Infos, 8 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 857.348 ; gain = 531.320
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 857.348 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hardi/Documents/ELEC3356-01 Digital Systems/Projects/Radar Filter Final Project/Radar_Filter/Radar_Filter.runs/synth_1/Radar_Filter.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Radar_Filter_utilization_synth.rpt -pb Radar_Filter_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  5 13:16:09 2025...

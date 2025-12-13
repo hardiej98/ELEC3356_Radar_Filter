@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../BCD_decoder/BCD_decoder.srcs/sources_1/new/BCD_decoder.vhd" \
+"../../../../../Bubble_Sort/Bubble_Sort.srcs/sources_1/new/Bubble_Sort.vhd" \
+"../../../../../Debounce/Debounce.srcs/sources_1/new/Debounce.vhd" \
+"../../../../../SevenSeg_display/SevenSeg_display.srcs/sources_1/new/SevenSeg_display.vhd" \
+"../../../../../FSM_7segment/FSM_7segment.srcs/sources_1/new/FSM_7segment.vhd" \
+"../../../../../LSFR_RNG_6bit/LSFR_RNG_6bit.srcs/sources_1/new/LSFR_RNG_6bit.vhd" \
+"../../../../../RAM_1D/RAM_1D.srcs/sources_1/new/RAM_1D.vhd" \
+"../../../../../RadarFilter_FSM/RadarFilter_FSM.srcs/sources_1/new/RadarFilter_FSM.vhd" \
+"../../../../../Timer_final/Timer_final.srcs/sources_1/new/Timer.vhd" \
+"../../../../../Reg_Bank/Reg_Bank.srcs/sources_1/new/Reg_Bank.vhd" \
+"../../../../Radar_Filter.srcs/sources_1/new/Radar_Filter.vhd" \
+
+# Do not sort compile order
+nosort
