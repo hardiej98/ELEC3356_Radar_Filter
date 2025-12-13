@@ -1,0 +1,47 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7s50csga324-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3"
+    },
+    "design_tree": {
+      "Debounce_0": ""
+    },
+    "components": {
+      "Debounce_0": {
+        "vlnv": "xilinx.com:module_ref:Debounce:1.0",
+        "xci_name": "design_1_Debounce_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Debounce",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "noisy_in": {
+            "direction": "I"
+          },
+          "tick_sample": {
+            "direction": "I"
+          },
+          "btn_level": {
+            "direction": "O"
+          },
+          "btn_pulse": {
+            "direction": "O"
+          }
+        }
+      }
+    }
+  }
+}
